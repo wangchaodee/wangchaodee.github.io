@@ -1,0 +1,31 @@
+# ----------- CONFIGURABLE START -----------
+title:            "hamilton blog"
+description:      "汪超-hamilton-blog"
+url:              http://hamilton.blog.cc # Site url, without a slash at the end.
+signoff:          "汪超" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
+github_username:  wangchaodee
+
+links:
+  - name:         Posts
+    url:          /
+    external:     false
+  - name:         About me
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - wangchaodee.github.io.iml
+
+defaults:
+  - values:
+      layout: "default"
+

@@ -1,13 +1,241 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-19T17:05:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">汪超-hamilton-blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/01/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-01-30T09:55:38+08:00</published><updated>2019-01-30T09:55:38+08:00</updated><id>http://localhost:4000/jekyll/update/2019/01/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/01/30/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hamilton blog</title>
+    <description>汪超-hamilton-blog</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Go Learning</title>
+        <description>&lt;h1 id=&quot;go-语言学习&quot;&gt;Go 语言学习&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;文档编写记录&quot;&gt;文档编写记录&lt;/h3&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;版本&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+      &lt;th&gt;日期&lt;/th&gt;
+      &lt;th&gt;编写者&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1&lt;/td&gt;
+      &lt;td&gt;第一次学习记录&lt;/td&gt;
+      &lt;td&gt;2019-04-02&lt;/td&gt;
+      &lt;td&gt;汪超&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;## 一、简介&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;## 二、学习大纲&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 02 Apr 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/go-learning</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/go-learning</guid>
+      </item>
+    
+      <item>
+        <title>Paas Learning</title>
+        <description>&lt;h1 id=&quot;paas&quot;&gt;PaaS&lt;/h1&gt;
+
+&lt;h3 id=&quot;文档编写记录&quot;&gt;文档编写记录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;版本&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+      &lt;th&gt;日期&lt;/th&gt;
+      &lt;th&gt;编写者&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1&lt;/td&gt;
+      &lt;td&gt;初稿&lt;/td&gt;
+      &lt;td&gt;2019-03-28&lt;/td&gt;
+      &lt;td&gt;汪超&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;简介&quot;&gt;简介&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Iaas : infrastructure as a service , 基础设施即服务&lt;/li&gt;
+  &lt;li&gt;PaaS : Platform as a service , platform的云化。&lt;/li&gt;
+  &lt;li&gt;SaaS : software as a service , 软件即服务，软件云化&lt;/li&gt;
+  &lt;li&gt;CaaS : Communications-as-a-Service ，意思是通讯即服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iaas-paas-saas-关联关系&quot;&gt;IaaS 、PaaS 、SaaS 关联关系&lt;/h3&gt;
+
+&lt;p&gt;以吃饺子为例：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果想要自己做，就是一个非常麻烦的事情，这时候需要准备好面粉，剁好的馅料，再调配好需要的配料，还得等面粉发酵完毕后和面。同时还要准备好煤气、蒸屉、砧板等厨具，还要有自己的餐桌与餐具。包好饺子放进蒸屉之中，蒸好后才能享用。
+所有东西都是自己准备，因此这就叫做本地部署（On-Premises）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;当然如果觉得麻烦，可以直接去超市买别人做好的冻饺子，回家里直接热热就可以吃了。这时候只需要准备好锅与煤气灶，还有餐桌、厨具就好了。
+与在自己家里面做不同，这里需要一个饺子的供应商，这就是基础设施即服务（IaaS）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;但还是感到有些麻烦，那么可以直接打个电话，叫一家卖饺子的餐厅直接把做好的热腾腾的饺子送过来，你只需要准备餐桌就好了。这就叫做平台即服务（PaaS）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果什么都不想准备，甚至连桌子都懒得整理的话，就直接去饺子店吃好了。那里什么都已经准备好了。这就是软件及服务（SaaS）。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[TOC] 总结一下，现在你有四种途径可以吃到饺子，要么自己把一切材料准备好，在家里面做；要么买现成的回来热热吃；要么叫个外卖；要么就去店里面吃。&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 28 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/PaaS-learning</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/PaaS-learning</guid>
+      </item>
+    
+      <item>
+        <title>Read Jvm</title>
+        <description>&lt;h1 id=&quot;阅读-jvm-基础知识&quot;&gt;阅读 JVM 基础知识&lt;/h1&gt;
+
+&lt;h3 id=&quot;文档编写记录&quot;&gt;文档编写记录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;版本&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+      &lt;th&gt;日期&lt;/th&gt;
+      &lt;th&gt;编写者&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1&lt;/td&gt;
+      &lt;td&gt;第一次学习记录&lt;/td&gt;
+      &lt;td&gt;2019-2-15&lt;/td&gt;
+      &lt;td&gt;汪超&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;java体系结构图&lt;/li&gt;
+  &lt;li&gt;内存调优注意点: 要看GC和Full GC 的频率，&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/read-Jvm</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/read-Jvm</guid>
+      </item>
+    
+      <item>
+        <title>Read Coding Effective</title>
+        <description>&lt;h1 id=&quot;阅读码出高效java开发手册笔记&quot;&gt;阅读《码出高效：Java开发手册》笔记&lt;/h1&gt;
+
+&lt;h2 id=&quot;汪超--2019-2-13&quot;&gt;汪超  2019-2-13&lt;/h2&gt;
+
+&lt;h3 id=&quot;文档编写记录&quot;&gt;文档编写记录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;版本&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+      &lt;th&gt;日期&lt;/th&gt;
+      &lt;th&gt;编写者&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1&lt;/td&gt;
+      &lt;td&gt;第一次学习记录&lt;/td&gt;
+      &lt;td&gt;2019-2-13&lt;/td&gt;
+      &lt;td&gt;汪超&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;问题&quot;&gt;问题&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;关于补码、原码、反码的概念？&lt;/li&gt;
+  &lt;li&gt;位移运算&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;有关合并http请求和并行http请求，到底谁快 
+ [csdn]&lt;a href=&quot;https://blog.csdn.net/prototype___/article/details/81606981&quot;&gt;https://blog.csdn.net/prototype___/article/details/81606981&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;bootstrap 学习&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;信息安全&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 13 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/read-Coding-Effective</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/read-Coding-Effective</guid>
+      </item>
+    
+      <item>
+        <title>Learn Ruby</title>
+        <description>&lt;h1 id=&quot;learn-ruby&quot;&gt;learn ruby&lt;/h1&gt;
+
+&lt;h3 id=&quot;文档编写记录&quot;&gt;文档编写记录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;版本&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+      &lt;th&gt;日期&lt;/th&gt;
+      &lt;th&gt;编写者&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1&lt;/td&gt;
+      &lt;td&gt;第一次学习记录&lt;/td&gt;
+      &lt;td&gt;2019-01-13&lt;/td&gt;
+      &lt;td&gt;汪超&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;install-rvm&quot;&gt;install rvm&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;[site] &lt;a href=&quot;https://rvm.io/&quot;&gt;https://rvm.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;curl -sSL https://get.rvm.io&lt;/td&gt;
+          &lt;td&gt;bash -s stable&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;use command to update rvm :rvm get stable&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;install-ruby&quot;&gt;install ruby&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;check avaliable ruby versions , $: rvm list known&lt;/li&gt;
+  &lt;li&gt;rvm install ruby 2.6&lt;/li&gt;
+  &lt;li&gt;rvm use 2.6 –default&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 13 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/learn-Ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/learn-Ruby</guid>
+      </item>
+    
+  </channel>
+</rss>
