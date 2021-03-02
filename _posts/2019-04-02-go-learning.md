@@ -24,7 +24,14 @@
  
  ### 1、go语言基础知识
  
+ ``` 
+ 变量、数组等，通用的、相似其它开发语言
  
+ slice
+ 
+ goroutine
+ ```
+
  ### 2、windows的go开发环境配置操作 
  
  ```
@@ -55,5 +62,17 @@
      8、现在你可以下载或创建一个go工程玩耍了
  ```
 
+ ### go工程配置-依赖包管理工具
+ 
+ 依赖管理  
+- vendor  
+ 	比较过时
+- go mod  
+    类似于java maven  
+ 	https://segmentfault.com/a/1190000018398763#articleHeader0
+
+
+ ### go工程demo
  
  
+ ### 典型框架 
