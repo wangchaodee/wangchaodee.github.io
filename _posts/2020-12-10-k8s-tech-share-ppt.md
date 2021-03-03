@@ -20,3 +20,10 @@
 6、Service统一了入口
 7、应用中问题总结
 
+
+![img](https://mmbiz.qpic.cn/mmbiz_png/Z6bicxIx5naIr8gdgA0DtGDqiaZoeVF5FBRBaO1vT8IIVfMTyZnpkPokBThEFpxBicUOC61eHHGu2icYNuXucexQJg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+### PPT
+
+ 7--K8s-从实践到原理的若干学习应用-chaowang5-20201222.pptx 
+ <https://wangchaodee.github.io/xmind/7--K8s-从实践到原理的若干学习应用-chaowang5-20201222.pptx>   

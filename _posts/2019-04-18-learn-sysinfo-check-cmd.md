@@ -50,7 +50,12 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
   du -sm [文件夹] 返回该文件夹总M数  
   du -h [目录名] 查看指定文件夹下的所有文件大小（包含子文件夹）
   
-  
+### 其他
+
+```shell script
+ watch -n 3 "netstat -ntu | awk '{print \$6}' | cut -d: -f1 | sort | uniq -c | sort -n"
+
+```  
   
 ### windows 下命令使用
 
@@ -59,3 +64,12 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 2、进程查看 tasklist | findstr "关键字" 
 
 3、进程终止 taskkill /PID /F  "进程ID"    
+
+
+### CURL 
+
+```
+curl --no-buffer -H 'Connection: keep-alive, Upgrade' -H 'Upgrade: websocket' -v -H 'Sec-WebSocket-Version: 13' -H 'Sec-WebSocket-Key: websocket' http://rtasr.xfyun.cn/v1/ws ws | od -t c
+
+
+```
