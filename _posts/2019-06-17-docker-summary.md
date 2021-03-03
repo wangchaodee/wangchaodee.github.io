@@ -31,3 +31,32 @@
 		docker 命令
 		Dockerfile编写
 			FROM \ MAINTAINER \ RUN \ COPY \ ADD \ENV \ EXPOSE \ WORKDIR \USER \VOLUME \CMD \ ENTRYPOINT
+
+## 常用指令
+
+```shell
+# 例如删除包含“some”的镜像
+docker rmi --force $(docker images | grep some | awk '{print $3}')
+
+# 停止所有 Exited 的容器
+
+docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
+
+# 删除所有 Exited 的容器
+
+docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
+
+# 删除所有 none 镜像
+
+docker images|grep none|awk '{print $3 }'|xargs docker rmi
+
+
+**ps -ef |grep hello |awk '{print $2}'|xargs kill -9**
+
+docker run --name sso-server  -p 13001:13001 --add-host api.geetest.com:172.16.154.106  --restart=always -d -e  JVM_OPTS='-Dapp.id=20007 -Dapollo.meta=http://172.31.205.72:25653 -Denv=dev' hub.iflytek.com/xfyun_test/sso-server
+
+kubectl -n 339-hera --kubeconfig="D:\Program\kube\config\chaowang5-test.kubeconfig" set image deployment/1m-2020-integral 1m-2020-integral=hub.iflytek.com/xfyun_webdev/1m-2020-integral:test-integral-014
+
+docker run --name auth  -p 9091:9091 -d -e SW_AGENT_TRACE_IGNORE_PATH='eureka/**,Lettuce/**' -e JVM_OPTS='-javaagent:/agent/skywalking-agent.jar -Dskywalking.agent.namespace=auth -Dskywalking.agent.service_name=auth -Dskywalking.collector.backend_service=  ' xxxx
+
+```

@@ -51,3 +51,11 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
   du -h [目录名] 查看指定文件夹下的所有文件大小（包含子文件夹）
   
   
+  
+### windows 下命令使用
+
+1、查端口进程 netstat -ano | findstr  "关键字"  
+
+2、进程查看 tasklist | findstr "关键字" 
+
+3、进程终止 taskkill /PID /F  "进程ID"    
